@@ -1,0 +1,53 @@
+.container-weather {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .container-weather {
+    flex-direction: column;
+    align-items: center;
+  }
+  div.weather-data {
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  h2 {
+    margin-top: 1.5rem!important;
+  }
+}
+
+.weather-data {
+  margin-left: 4rem;
+  color: #fff;
+}
+
+.weather-data p {
+  display: flex;
+  align-items: center;
+}
+
+span.icon {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.temperature {
+  color: rgb(219, 19, 19);
+}
+.thermal-sensation {
+  color: #f06102
+}
+.humidity {
+  color: rgb(0, 204, 255)
+}
+.pressure {
+  color:#6d4c27;
+}
+.wind {
+  color: rgb(0, 255, 106);
+}

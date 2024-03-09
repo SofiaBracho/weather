@@ -1,0 +1,24 @@
+.weather-resume {
+    background: rgba(255, 255, 255, 0.5);
+    width: 200px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #3f3f3f;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-resume div {
+    margin-bottom: 1rem;
+}
+.weather-resume p {
+    margin: .25rem;
+}
+.weather-resume:hover {
+    /* transform: scale(1.05); */
+    background: rgba(255, 255, 255, 0.7);
+}
