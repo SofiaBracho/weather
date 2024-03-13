@@ -1,40 +1,76 @@
-# Weather React App
+<div align="center">
+  <h1 align="center">Weather React App</h1>
+</div>
+<br/>
+
+<div align="center">
+
+[![made-with-react](https://img.shields.io/badge/Made%20with-React-1f425f.svg)](https://www.php.net/)
+<br/>
+<br/>
+<a href="https://www.linkedin.com/in/sofiabrach0/">
+![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=for-the-badge)
+</a>
+<a href="https://github.com/SofiaBracho">
+![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)
+</a>
+</div>
+
+
 This is a simple Weather React App that displays the current weather of the user's location. The app uses the TrueWay Geocoding API to get the user's location and the OpenWeatherMap API to get the weather data.
 
+
+## ⚙️ Key Features
+- **Get coordinates**: The app uses the `navigator.geolocation.getCurrentPosition()` method to get the user's current location.
+- **Reverse geolocation**: The `fetchGeolocation()` method is called with the user's latitude and longitude to get the user's city and country from the TrueWay Geocoding API.
+- **Fetch weather data**: The `fetchWeatherData()` method is called with the user's city and country to get the weather data from the OpenWeatherMap API. The weather data is displayed on the screen using the WeatherData component.
+
+
+## 🖥️ Demo
+
+![Diary Demo GIF](https://github.com/SofiaBracho/weather/blob/master/src/img/demo.gif) 
+
+
+## 🛠️ Getting Started
+
 ## Prerequisites
-* Node.js installed
-* NPM (Node Package Manager) installed
+
+Here's what you need to be able to run this App:
+
+- Node.js installed
+- NPM (Node Package Manager) installed
+
+### 1. Clone the repository
+Execute the following commands:
+
+```shell
+git clone https://github.com/SofiaBracho/weather.git
+cd weather
+```
+
+### 2. Install dependencies
+Execute the command:
+```shell
+npm install
+```
+
+### 3. Run local server
+
+```shell
+npm start
+```
 
 
-## Getting Started
-1. Clone the repository to your local machine.
-2. Run npm install to install all the dependencies.
-3. Run npm start to start the development server.
-4. Open your browser and go to http://localhost:3000/ to view the app.
+## 🔀 Contributing
 
+This wheather app is open to anyone from the community to contribute. If you'd like to, fork the repository and make changes. Pull requests are welcome.
 
-## How it Works
-The app uses the navigator.geolocation.getCurrentPosition() method to get the user's current location.
-The fetchGeolocation() method is called with the user's latitude and longitude to get the user's city and country from the TrueWay Geocoding API.
-The fetchWeatherData() method is called with the user's city and country to get the weather data from the OpenWeatherMap API.
-The weather data is displayed on the screen using the WeatherData component.
+### 👥 Author
 
-## Components
+<a href="https://github.com/SofiaBracho">
+  <img src="https://github.com/SofiaBracho/weather/blob/master/src/img/author.png" width="50px" alt="Author"/>
+</a>
 
-- App: The main component that contains the app's state and logic.
-- Loader: A component that displays a loading spinner while the app is getting the user's location and weather data.
-- WeatherData: A component that displays the weather data.
-- Search: A component that allows the user to search for a city and display its weather data (not enabled yet).
-
-## Files
-- App.js: The main file that contains the App component.
-components/: A directory that contains all the app's components.
-components/Loader.js: A file that contains the Loader component.
-components/WeatherData.js: A file that contains the WeatherData component.
-components/Search.js: A file that contains the Search component.
-- App.css: A file that contains the app's styles.
-
-## Dependencies
-- React: A JavaScript library for building user interfaces.
-- React-router-dom: A collection of navigational components for React Router.
-License
+**Sofia Bracho**
+<br>
+Web developer
